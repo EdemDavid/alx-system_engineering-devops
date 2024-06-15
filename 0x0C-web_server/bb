@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Transfers a file from our client to a server 
+
+# The first parameter should be the path of the file to be transferred.
+# The next one after that should be the server username as it appears when used with the 'ssh' command.
+# The next one should be the destination path.
+
+# So this file will have something along the lines of;
+scp /home/david_edem/alx-system_engineering-devops/0x0C-web_server/move_me ubuntu@54.172.94.37:
